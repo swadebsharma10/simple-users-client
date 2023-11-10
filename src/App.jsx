@@ -59,9 +59,9 @@ function App() {
       <div className='max-w-3xl mx-auto bg-purple-300 p-10'>
        <h3 className='text-xl font-bold text-center'>Add  User</h3>
           <form onSubmit={handleAddUser}>
-            <input type="text" name="name" id="" className=' mb-5 w-full rounded' placeholder='name' />
+            <input type="text" name="name" id="" className=' mb-5 w-full rounded' placeholder='name' required/>
             <br />
-            <input type="email" name="email" id="" className=' mb-4 w-full rounded' placeholder='email' />
+            <input type="email" name="email" id="" className=' mb-4 w-full rounded' placeholder='email' required />
             <br />
             <input className='bg-orange-500 w-full rounded' type="submit" value="Submit" />
           </form>
